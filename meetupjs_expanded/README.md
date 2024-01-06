@@ -75,10 +75,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 # npm install -g firebase-tools
-# firesbase --version
+# firebase --version
 ## 13.0.2
 # firebase login
 # firebase init
 # firebase init emulators
-# firesbase serve --only hosting
+# firebase serve --only hosting
+
+
+## run every time starting the app
 # firebase emulators:start --only auth
+
+
+# Things to add:
+## email verification

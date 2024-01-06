@@ -47,13 +47,13 @@ function SignInForm(props) {
         </a>
         <div className={classes.parent}>
           <div className={classes.child}>
-            <div className={classes.actions_secondary}>
-              <button onClick={createAccountHandler}>Create An Account</button>
+            <div className={classes.actions}>
+              <button>Sign In</button>
             </div>
           </div>
           <div className={classes.child}>
-            <div className={classes.actions}>
-              <button>Sign In</button>
+            <div className={classes.actions_secondary}>
+              <button onClick={createAccountHandler}>Create An Account</button>
             </div>
           </div>
         </div>

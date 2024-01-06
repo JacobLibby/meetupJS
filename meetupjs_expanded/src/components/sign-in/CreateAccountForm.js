@@ -9,8 +9,6 @@ function CreateAccountForm(props) {
   const emailInputRef = useRef();
   const passwordInputRef = useRef();
 
-
-
   const navigate = useNavigate();
 
   function signInHandler() {
@@ -63,13 +61,13 @@ function CreateAccountForm(props) {
         </a>
         <div className={classes.parent}>
           <div className={classes.child}>
-            <div className={classes.actions_secondary}>
-              <button onClick={signInHandler}>I Already Have An Account</button>
+            <div className={classes.actions}>
+              <button>Create Account</button>
             </div>
           </div>
           <div className={classes.child}>
-            <div className={classes.actions}>
-              <button>Create Account</button>
+            <div className={classes.actions_secondary}>
+              <button onClick={signInHandler}>I Already Have An Account</button>
             </div>
           </div>
         </div>
