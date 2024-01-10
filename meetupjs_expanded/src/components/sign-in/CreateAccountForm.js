@@ -22,14 +22,14 @@ function CreateAccountForm(props) {
     const enteredEmail = emailInputRef.current.value;
     const enteredPassword = passwordInputRef.current.value;
 
-    const meetupData = {
+    const accountData = {
       username: enteredUsername,
       name: enteredName,
       email: enteredEmail,
       password: enteredPassword,
     };
 
-    props.onAddMeetup(meetupData);
+    props.onCreateAccount(accountData);
   }
 
   return (

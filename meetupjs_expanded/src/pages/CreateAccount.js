@@ -3,6 +3,11 @@ import CreateAccountForm from "../components/sign-in/CreateAccountForm";
 
 function CreateAccountPage() {
   const navigate = useNavigate();
+
+
+  function createAccountHandler(accountData){
+
+  }
   
   //   function signInHandler(signInData) {
   //     fetch(
@@ -21,7 +26,7 @@ function CreateAccountPage() {
   return (
     <section>
       <h1>CREATE ACCOUNT PAGE</h1>
-      {/* <CreateAccountForm onSignIn={signInHandler} /> */}
+      /* <CreateAccountForm onCreateAccount={createAccountHandler} /> */
       <CreateAccountForm />
     </section>
   );
